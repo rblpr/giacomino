@@ -51,7 +51,7 @@ function restart() {
     setup();
 }
 
-let prevLvl = 0;
+let prevLvl = -1;
 let lvl = 0;
 let videos = ["lvl1.mp4","lvl2.mp4","lvl3.mp4","lvl4.mp4","lvl5.mp4", "lvl6.mp4"]
 function checkLevel(a) {
@@ -86,4 +86,8 @@ function changeVideo() {
     </video>
     `
     
+}
+
+function mousePressed() {
+    changeVideo();
 }

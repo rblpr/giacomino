@@ -12,7 +12,7 @@ class Universe {
 
         let boundary = new Quad(width / 2, height / 2, width / 2, height / 2);
         this.qt = new Quadtree(boundary, 4);
-        this.qtrange = 40;
+        this.qtrange = 30;
     }
 
     addAgent(agent) {
